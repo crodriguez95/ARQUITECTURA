@@ -1,0 +1,23 @@
+package entrada;
+import java.util.Scanner;
+public class entrada {
+	public static void main(String a[]){
+		Scanner x=new Scanner(System.in);
+		int r=x.nextInt();
+		
+		int n=x.nextInt();
+		int b=0;
+		System.out.println("el valor digitado es"+r);
+		System.out.println("el valor digitado es"+n);
+		System.out.println("el valor digitado es"+b);
+	int s=r+n;
+	System.out.println("el resultado es"+s);
+	
+	b=n;
+    n=r;
+	r=b;
+	System.out.println("valor de r"+""+r);
+	System.out.println("el valor n"+""+n);
+	
+	}
+}

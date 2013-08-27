@@ -1,0 +1,54 @@
+package entrada;
+import java.util.Scanner;
+public class entrada {
+	public static void main(String a[]){
+		Scanner x=new Scanner(System.in);
+		int r=x.nextInt();
+		
+		int n=x.nextInt();
+		int b=0;
+		System.out.println("el valor digitado es"+r);
+		System.out.println("el valor digitado es"+n);
+		
+	int s=r+n;
+	System.out.println("el resultado es"+s);
+	
+	b=n;
+    n=r;
+	r=b;
+	System.out.println("valor de r"+""+r);
+	System.out.println("el valor n"+""+n);
+	
+	int m1,m2;
+	if (r>n) {
+		System.out.println("el numero mayor"+""+r);
+		System.out.println("el numero menor"+""+n);
+	} else {
+System.out.println("el numero mayor"+""+n);
+System.out.println("el numero menor"+""+r);}
+m1=n;
+m2=r;
+System.out.println("la potencia es"+""+Math.pow(m1,m2));
+if (n>r) {
+	System.out.println("el numero mayor"+""+n);
+	System.out.println("el numero menor"+""+r);
+} else {
+System.out.println("el numero mayor"+""+r);
+System.out.println("el numero menor"+""+n);
+}
+	
+	if (r%3==0) {
+		System.out.println("es multiplo");
+	} else {
+		System.out.println("no es multiplo");
+
+	}
+	if (n%3==0) {
+		System.out.println("es multiplo");
+	} else {
+System.out.println("no es multiplo");
+	}
+	
+	
+	}
+}
